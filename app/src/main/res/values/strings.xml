@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android_03</string>
+    <string name="team1">TEAM A</string>
+    <string name="scoreA">0</string>
+
+    <string name="team2">TEAM B</string>
+    <string name="scoreB">0</string>
+</resources>

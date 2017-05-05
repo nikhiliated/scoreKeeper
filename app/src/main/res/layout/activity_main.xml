@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context=".MainActivity"
+    android:layout_weight="1">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context=".MainActivity">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context=".MainActivity"
+    android:layout_gravity="center">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
+            tools:context=".MainActivity"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/team1"
+                android:text="@string/team1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"
+                android:textColor="#1b1b1b"
+                android:textAlignment="center"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/team_a_score"
+                android:text="@string/scoreA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="45sp"
+                android:textColor="#ff5658"
+                android:textAlignment="center"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+3 POINTS"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8sp"
+                android:onClick="plus3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+2 POINTS"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8sp"
+                android:onClick="plus2"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FREE THROW"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8sp"
+                android:onClick="freeThrow"/>
+
+
+
+        </LinearLayout>
+
+                  <View
+                      android:layout_width="1dp"
+                      android:layout_height="match_parent"
+                      android:background="@color/line"/>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        tools:context=".MainActivity"
+            android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/team2"
+            android:text="@string/team2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:textColor="#1b1b1b"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/team_b_score"
+            android:text="@string/scoreB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:textColor="#ff5658"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+3 POINTS"
+            android:layout_marginBottom="8sp"
+            android:textColor="#ffffff"
+            android:onClick="plus3B"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+2 POINTS"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="8sp"
+            android:onClick="plus2B"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FREE THROW"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="8sp"
+            android:onClick="freeThrowB" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingBottom="8dp"
+android:paddingLeft="8dp"
+android:paddingRight="8dp"
+android:paddingTop="8dp"
+tools:context=".MainActivity"
+android:layout_weight="1">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="RESET"
+    android:layout_marginBottom="8sp"
+    android:onClick="reset"
+    android:textColor="#ffffff"
+    android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+
+    </LinearLayout>
